@@ -460,6 +460,9 @@ declare namespace math {
     q: number[]
   }
 
+  /**
+   * @deprecated since version 11.7.0. Prefer `QRDecompositionModern` instead
+   */
   interface QRDecomposition {
     Q: MathCollection
     R: MathCollection
